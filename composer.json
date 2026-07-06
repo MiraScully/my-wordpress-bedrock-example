@@ -48,8 +48,9 @@
     "roots/wordpress": "6.9.4",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
-    "wpackagist-plugin/mailgun": "^1.9",
-    "wp-theme/twentytwentyfive": "^1.0"
+    "wp-theme/monobase": "^1.2",
+    "wp-theme/twentytwentyfive": "^1.0",
+    "wpackagist-plugin/mailgun": "^1.9"
   },
   "require-dev": {
     "laravel/pint": "^1.27",
