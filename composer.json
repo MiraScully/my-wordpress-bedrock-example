@@ -48,6 +48,7 @@
     "roots/wordpress": "6.9.4",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
+    "wp-plugin/code-snippets": "^3.9",
     "wp-plugin/honeypot": "^2.3",
     "wp-plugin/magic-login": "^2.7",
     "wp-plugin/wp-author-slug": "^5.0",

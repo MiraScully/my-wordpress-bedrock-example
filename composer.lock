@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efd2c0bcede987ea6e94b3ec3ddcc805",
+    "content-hash": "cdd91666323dadf4e624d675794853bd",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1987,6 +1987,37 @@
                 }
             ],
             "time": "2025-12-27T19:49:13+00:00"
+        },
+        {
+            "name": "wp-plugin/code-snippets",
+            "version": "3.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/code-snippets/",
+                "reference": "tags/3.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.9.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Code Snippets Pro"
+                }
+            ],
+            "description": "An easy, clean and simple way to enhance your site with code snippets.",
+            "homepage": "https://codesnippets.pro",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/code-snippets/#developers",
+                "issues": "https://wordpress.org/support/plugin/code-snippets",
+                "source": "https://plugins.svn.wordpress.org/code-snippets"
+            },
+            "time": "2026-02-05T11:03:00+00:00"
         },
         {
             "name": "wp-plugin/honeypot",
