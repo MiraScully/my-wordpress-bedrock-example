@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3653f9ab5435b412b1ca3dabc210cb64",
+    "content-hash": "efd2c0bcede987ea6e94b3ec3ddcc805",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1987,6 +1987,130 @@
                 }
             ],
             "time": "2025-12-27T19:49:13+00:00"
+        },
+        {
+            "name": "wp-plugin/honeypot",
+            "version": "2.3.04",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/honeypot/",
+                "reference": "tags/2.3.04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/honeypot.2.3.04.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Dnesscarkey"
+                }
+            ],
+            "description": "Fastest growing Anti Spam plugin. No API calls, subscriptions, captcha or puzzle. Full GDPR complaint. For comments, contact form, login, registration",
+            "homepage": "http://wordpress.org/plugins/honeypot/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/honeypot/#developers",
+                "issues": "https://wordpress.org/support/plugin/honeypot",
+                "source": "https://plugins.svn.wordpress.org/honeypot"
+            },
+            "time": "2025-12-20T04:14:00+00:00"
+        },
+        {
+            "name": "wp-plugin/magic-login",
+            "version": "2.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/magic-login/",
+                "reference": "tags/2.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/magic-login.2.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "handyplugins"
+                }
+            ],
+            "description": "Passwordless login for WordPress. Streamline the login process by sending magic links to your users.",
+            "homepage": "https://handyplugins.co/magic-login-pro/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/magic-login/#developers",
+                "issues": "https://wordpress.org/support/plugin/magic-login",
+                "source": "https://plugins.svn.wordpress.org/magic-login"
+            },
+            "time": "2026-03-15T13:35:00+00:00"
+        },
+        {
+            "name": "wp-plugin/wp-author-slug",
+            "version": "5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-author-slug/",
+                "reference": "tags/5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-author-slug.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Konstantin Obenland"
+                }
+            ],
+            "description": "Add a layer of security and prevent your login name from being shown in the author archive's URL.",
+            "homepage": "http://en.wp.obenland.it/wp-author-slug/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-author-slug",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wp-author-slug/#developers",
+                "issues": "https://wordpress.org/support/plugin/wp-author-slug",
+                "source": "https://plugins.svn.wordpress.org/wp-author-slug"
+            },
+            "time": "2025-09-09T01:07:00+00:00"
+        },
+        {
+            "name": "wp-plugin/wp-persistent-login",
+            "version": "3.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-persistent-login/",
+                "reference": "tags/3.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-persistent-login.3.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "lukeseager"
+                }
+            ],
+            "description": "Persistent Login keeps users logged into your website, limits the number of active logins allowed at one time and alerts users of new devices logging  …",
+            "homepage": "https://persistentlogin.com/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wp-persistent-login/#developers",
+                "issues": "https://wordpress.org/support/plugin/wp-persistent-login",
+                "source": "https://plugins.svn.wordpress.org/wp-persistent-login"
+            },
+            "time": "2026-02-08T07:41:00+00:00"
         },
         {
             "name": "wp-theme/monobase",
