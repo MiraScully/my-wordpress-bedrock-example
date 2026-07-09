@@ -48,7 +48,6 @@
     "roots/wordpress": "7.0",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
-    "wp-plugin/ai": "^0.5.0",
     "wp-plugin/ai-provider-for-openai": "^1.0",
     "wp-plugin/blocksy-companion": "^2.1",
     "wp-plugin/code-snippets": "^3.9",
@@ -62,6 +61,7 @@
     "wp-theme/blocksy": "^2.1",
     "wp-theme/monobase": "^1.2",
     "wp-theme/twentytwentyfive": "^1.0",
+    "wpackagist-plugin/ai": "1.1.0",
     "wpackagist-plugin/mailgun": "^1.9"
   },
   "require-dev": {

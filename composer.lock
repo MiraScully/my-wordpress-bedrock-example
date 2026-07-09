@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c44c13484d9a149d2ac08ce2920fc60e",
+    "content-hash": "034523bed6b8884370638a1ddb86c79b",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1989,37 +1989,6 @@
             "time": "2025-12-27T19:49:13+00:00"
         },
         {
-            "name": "wp-plugin/ai",
-            "version": "0.5.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ai/",
-                "reference": "tags/0.5.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ai.0.5.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0|~2.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://wp-packages.org/downloads",
-            "authors": [
-                {
-                    "name": "WordPress.org"
-                }
-            ],
-            "description": "AI experiments and capabilities for WordPress.",
-            "homepage": "https://github.com/WordPress/ai",
-            "support": {
-                "changelog": "https://wordpress.org/plugins/ai/#developers",
-                "issues": "https://wordpress.org/support/plugin/ai",
-                "source": "https://plugins.svn.wordpress.org/ai"
-            },
-            "time": "2026-03-12T15:21:00+00:00"
-        },
-        {
             "name": "wp-plugin/ai-provider-for-openai",
             "version": "1.0.2",
             "source": {
@@ -2405,6 +2374,24 @@
                 "source": "https://themes.svn.wordpress.org/twentytwentyfive"
             },
             "time": "2025-12-03T00:00:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/ai",
+            "version": "1.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ai/",
+                "reference": "tags/1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ai.1.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ai/"
         },
         {
             "name": "wpackagist-plugin/mailgun",
