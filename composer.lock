@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08c8e9c8ac4f72eccaf022401329eca6",
+    "content-hash": "c44c13484d9a149d2ac08ce2920fc60e",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2018,6 +2018,37 @@
                 "source": "https://plugins.svn.wordpress.org/ai"
             },
             "time": "2026-03-12T15:21:00+00:00"
+        },
+        {
+            "name": "wp-plugin/ai-provider-for-openai",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ai-provider-for-openai/",
+                "reference": "tags/1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ai-provider-for-openai.1.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "WordPress.org"
+                }
+            ],
+            "description": "AI Provider for OpenAI for the PHP AI Client SDK.",
+            "homepage": "https://github.com/WordPress/ai-provider-for-openai",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/ai-provider-for-openai/#developers",
+                "issues": "https://wordpress.org/support/plugin/ai-provider-for-openai",
+                "source": "https://plugins.svn.wordpress.org/ai-provider-for-openai"
+            },
+            "time": "2026-03-04T14:53:00+00:00"
         },
         {
             "name": "wp-plugin/blocksy-companion",
