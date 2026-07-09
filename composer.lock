@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c73cc0a0ff8cc9d39df1d1324185643e",
+    "content-hash": "f50cf293eb367a0f4ebaf3f569497f5c",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2020,6 +2020,37 @@
             "time": "2026-02-05T11:03:00+00:00"
         },
         {
+            "name": "wp-plugin/fluent-smtp",
+            "version": "2.2.95",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fluent-smtp/",
+                "reference": "tags/2.2.95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.95.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Shahjahan Jewel"
+                }
+            ],
+            "description": "The Ultimate Forever Free Mail SMTP Plugin for WordPress. Connect with any SMTP, SendGrid, Mailgun, Amazon SES, Brevo, Postmark, Sparkpost, Google...",
+            "homepage": "https://fluentsmtp.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/fluent-smtp/#developers",
+                "issues": "https://wordpress.org/support/plugin/fluent-smtp",
+                "source": "https://plugins.svn.wordpress.org/fluent-smtp"
+            },
+            "time": "2025-12-28T13:22:00+00:00"
+        },
+        {
             "name": "wp-plugin/honeypot",
             "version": "2.3.04",
             "source": {
@@ -2049,6 +2080,37 @@
                 "source": "https://plugins.svn.wordpress.org/honeypot"
             },
             "time": "2025-12-20T04:14:00+00:00"
+        },
+        {
+            "name": "wp-plugin/loco-translate",
+            "version": "2.8.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/loco-translate/",
+                "reference": "tags/2.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.8.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Tim W"
+                }
+            ],
+            "description": "Translate WordPress plugins and themes directly in your browser. Versatile PO file editor with integrated AI translation providers.",
+            "homepage": "https://wordpress.org/plugins/loco-translate/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/loco-translate/#developers",
+                "issues": "https://wordpress.org/support/plugin/loco-translate",
+                "source": "https://plugins.svn.wordpress.org/loco-translate"
+            },
+            "time": "2026-03-14T11:53:00+00:00"
         },
         {
             "name": "wp-plugin/magic-login",
