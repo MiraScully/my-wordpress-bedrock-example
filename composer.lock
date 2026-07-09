@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "020e3cb8a6bc0720ff171f8224259a68",
+    "content-hash": "08c8e9c8ac4f72eccaf022401329eca6",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1989,6 +1989,37 @@
             "time": "2025-12-27T19:49:13+00:00"
         },
         {
+            "name": "wp-plugin/ai",
+            "version": "0.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ai/",
+                "reference": "tags/0.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ai.0.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "WordPress.org"
+                }
+            ],
+            "description": "AI experiments and capabilities for WordPress.",
+            "homepage": "https://github.com/WordPress/ai",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/ai/#developers",
+                "issues": "https://wordpress.org/support/plugin/ai",
+                "source": "https://plugins.svn.wordpress.org/ai"
+            },
+            "time": "2026-03-12T15:21:00+00:00"
+        },
+        {
             "name": "wp-plugin/blocksy-companion",
             "version": "2.1.35",
             "source": {
@@ -2172,6 +2203,37 @@
                 "source": "https://plugins.svn.wordpress.org/magic-login"
             },
             "time": "2026-03-15T13:35:00+00:00"
+        },
+        {
+            "name": "wp-plugin/seo-engine",
+            "version": "0.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seo-engine/",
+                "reference": "tags/0.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seo-engine.0.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Jordy Meow"
+                }
+            ],
+            "description": "Made it through the SEO plugin wasteland? You've earned a coffee ☺️ Quietly powerful AI SEO that actually works. No bloat, just results. Enjoy! 💕",
+            "homepage": "https://meowapps.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/seo-engine/#developers",
+                "issues": "https://wordpress.org/support/plugin/seo-engine",
+                "source": "https://plugins.svn.wordpress.org/seo-engine"
+            },
+            "time": "2026-03-10T02:31:00+00:00"
         },
         {
             "name": "wp-plugin/wp-author-slug",
