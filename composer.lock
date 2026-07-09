@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f50cf293eb367a0f4ebaf3f569497f5c",
+    "content-hash": "020e3cb8a6bc0720ff171f8224259a68",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1989,6 +1989,36 @@
             "time": "2025-12-27T19:49:13+00:00"
         },
         {
+            "name": "wp-plugin/blocksy-companion",
+            "version": "2.1.35",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/blocksy-companion/",
+                "reference": "tags/2.1.35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/blocksy-companion.2.1.35.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Creative Themes"
+                }
+            ],
+            "description": "The official companion plugin for Blocksy theme, packed with starter sites, extra features, and integrations.",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/blocksy-companion/#developers",
+                "issues": "https://wordpress.org/support/plugin/blocksy-companion",
+                "source": "https://plugins.svn.wordpress.org/blocksy-companion"
+            },
+            "time": "2026-03-12T18:57:00+00:00"
+        },
+        {
             "name": "wp-plugin/code-snippets",
             "version": "3.9.5",
             "source": {
@@ -2204,6 +2234,32 @@
                 "source": "https://plugins.svn.wordpress.org/wp-persistent-login"
             },
             "time": "2026-02-08T07:41:00+00:00"
+        },
+        {
+            "name": "wp-theme/blocksy",
+            "version": "2.1.35",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/blocksy/",
+                "reference": "2.1.35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/blocksy.2.1.35.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://wp-packages.org/downloads",
+            "description": "Blocksy is a fast, modern WordPress theme with advanced WooCommerce support and full compatibility with the block editor.",
+            "homepage": "https://wordpress.org/themes/blocksy/",
+            "support": {
+                "changelog": "https://wordpress.org/themes/blocksy/#developers",
+                "issues": "https://wordpress.org/support/theme/blocksy",
+                "source": "https://themes.svn.wordpress.org/blocksy"
+            },
+            "time": "2026-03-12T00:00:00+00:00"
         },
         {
             "name": "wp-theme/monobase",
