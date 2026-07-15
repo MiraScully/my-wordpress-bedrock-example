@@ -62,7 +62,8 @@
     "wp-theme/monobase": "^1.2",
     "wp-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/ai": "1.1.0",
-    "wpackagist-plugin/mailgun": "^1.9"
+    "wpackagist-plugin/mailgun": "^1.9",
+    "wpackagist-theme/reclaim-the-web": "^0.1.1"
   },
   "require-dev": {
     "laravel/pint": "^1.27",
