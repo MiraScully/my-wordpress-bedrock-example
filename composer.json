@@ -48,6 +48,7 @@
     "roots/wordpress": "7.0",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
+    "wp-cli/wp-cli-bundle": "^2.11",
     "wp-plugin/ai-provider-for-openai": "^1.0",
     "wp-plugin/blocksy-companion": "^2.1",
     "wp-plugin/code-snippets": "^3.9",
