@@ -45,7 +45,7 @@
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "7.0",
+    "roots/wordpress": "7.1.4",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
     "wp-cli/wp-cli-bundle": "^2.11",
@@ -64,6 +64,7 @@
     "wp-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/ai": "1.1.0",
     "wpackagist-plugin/mailgun": "^1.9",
+    "wpackagist-theme/quire-ink": "^0.1.4",
     "wpackagist-theme/reclaim-the-web": "^0.1.1"
   },
   "require-dev": {
